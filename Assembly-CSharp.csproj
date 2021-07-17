@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{302CC39B-38A3-7C07-D854-76B18DDBDD3D}</ProjectGuid>
+    <ProjectGuid>{32E88F40-4498-A8C1-BE2D-97F21B7146D4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,8 +53,9 @@
     <UnityVersion>2021.1.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Chest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\TextMesh Pro\Shaders\TMPro.cginc" />
